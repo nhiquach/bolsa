@@ -4,7 +4,7 @@
 		<title>Bolsa Vietnamese Restaurant</title>
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png"/>
-        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Sacramento" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Sacramento|Roboto" rel="stylesheet">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
         <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
         <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
@@ -31,60 +31,129 @@
 	    		Explore the Menu
 	    	</div>
     	</div>
+    	<div class="bounce-horiz" id="click-title-container">
+	    	<div id="click-title">
+		    	Click Me!
+		    </div>
+	    </div>
+    	<div class="bounce-horiz" id="click-arrow">
+    		<div id="click-arrow-wrapper">
+    			<img src="assets/img/side-arrow.png">
+    		</div>
+    	</div>
     	<div class="grid">
-			<div class="grid-item">
-				<div class="img-wrapper">
+			<div class="grid-item" id="grid-0-0">
+				<div class="img-wrapper" id="0-0">
 					<img src="assets/img/banh-mi.jpg">
 				</div>
-			</div>
-			<div class="grid-item">
-				<div class="img-wrapper">
-					<img src="assets/img/banh-mi.jpg">
+				<div class="img-wrapper-back" id="0-0-back">
+					<img src="assets/img/split-pho/0-0.jpeg">
 				</div>
 			</div>
-			<div class="grid-item">
-				<div class="img-wrapper">
-					<img src="assets/img/banh-mi.jpg">
+			<div class="grid-item" id="grid-0-1">
+				<div class="img-wrapper" id="0-1">
+					<img style="transform: translateX(-15%);" src="assets/img/banhxeo.jpg">
+				</div>
+				<div class="img-wrapper-back" id="0-1-back">
+					<img src="assets/img/split-pho/0-1.jpeg">
 				</div>
 			</div>
-			<div class="grid-item">
-				<div class="img-wrapper">
-					<img src="assets/img/banh-mi.jpg">
+			<div class="grid-item" id="grid-0-2">
+				<div class="img-wrapper" id="0-2">
+					<img src="assets/img/chicken-pho.jpg">
+				</div>
+				<div class="img-wrapper-back" id="0-2-back">
+					<img src="assets/img/split-pho/0-2.jpeg">
 				</div>
 			</div>
-			<div class="grid-item">
-				<div class="img-wrapper">
-					<img src="assets/img/banh-mi.jpg">
+			<div class="grid-item" id="grid-1-0">
+				<div class="img-wrapper" id="1-0">
+					<img style="transform: translateX(-22%);" src="assets/img/beef-pho2.jpg">
+				</div>
+				<div class="img-wrapper-back" id="1-0-back">
+					<img src="assets/img/split-pho/1-0.jpeg">
 				</div>
 			</div>
-			<div class="grid-item">
-				<div class="img-wrapper">
-					<img src="assets/img/banh-mi.jpg">
+			<div class="grid-item" id="grid-1-2">
+				<div class="img-wrapper" id="1-2">
+					<img style="transform: translateX(-20%);" src="assets/img/fish.jpg">
+				</div>
+				<div class="img-wrapper-back" id="1-2-back">
+					<img src="assets/img/split-pho/1-2.jpeg">
 				</div>
 			</div>
-			<div class="grid-item">
-				<div class="img-wrapper">
-					<img src="assets/img/banh-mi.jpg">
+			<div class="grid-item" id="grid-1-1">
+				<div class="img-wrapper" id="1-1">
+					<img style="transform: translateX(-20%);" src="assets/img/coffee.jpg">
+				</div>
+				<div class="img-wrapper-back" id="1-1-back">
+					<img src="assets/img/split-pho/1-1.jpeg">
+				</div>
+			</div>
+			<div class="grid-item" id="grid-2-0">
+				<div class="img-wrapper" id="2-0">
+					<img src="assets/img/springrolls.jpg">
+				</div>
+				<div class="img-wrapper-back" id="2-0-back">
+					<img src="assets/img/split-pho/2-0.jpeg">
+				</div>
+			</div>
+			<div class="grid-item" id="grid-2-1">
+				<div class="img-wrapper" id="2-1">
+					<img style="transform: translateX(-3%);" src="assets/img/miquang.jpg">
+				</div>
+				<div class="img-wrapper-back" id="2-1-back">
+					<img src="assets/img/split-pho/2-1.jpeg">
+				</div>
+			</div>
+			<div class="grid-item" id="grid-2-2">
+				<div class="img-wrapper" id="2-2">
+					<img src="assets/img/canhca.jpg">
+				</div>
+				<div class="img-wrapper-back" id="2-2-back">
+					<img src="assets/img/split-pho/2-2.jpeg">
 				</div>
 			</div>	
-			<div class="grid-item">
-				<div class="img-wrapper">
-					<img src="assets/img/banh-mi.jpg">
-				</div>
-			</div>
-			<div class="grid-item">
-				<div class="img-wrapper">
-					<img src="assets/img/banh-mi.jpg">
-				</div>
-			</div>
 		</div>
     </section>
     <section class="section" id="contact-section">
+    	<div id="contact-container">
+    		<div id="contact-header">Contact</div>
+    		<div id="contact-form">
+    			<form>
+    				<div class="input-label">Name *</div>
+    				<input class="input-short" type="text"></input>
+    				<div class="input-label">Subject *</div>
+    				<input class="input-short" type="text"></input>
+    				<div class="input-label">Email *</div>
+    				<input class="input-short" type="text"></input>
+    				<div class="input-label">Message *</div>
+    				<input class="input-long" type="text"></input>
+    				<div id="submit-button">SUBMIT</div>
+    			</form>
+    		</div>
+    		<div id="contact-divider"></div>
+    		<div id="contact-about">
+    			<div><b style="font-size: 35px;">Bolsa Vietnamese Restaurant</b> is a family owned restaurant. All of our employees have a sense of family and we instill our values into our customers. We treat everyone like family. Our dishes are well prepared and delicious.</div><br />
+
+				<div>We have been providing the San Diego community with quality Vietnamese food that has been derived from traditional Vietnamese culture.</div><br />
+
+				<div>We invite everyone to come dine with us and experience a unique family experience.</div>
+    		</div>
+    	</div>
     	<div id="icon-bar">
-			<img src="assets/icons/facebook.png">
-			<img src="assets/icons/google-plus.png">
-			<img src="assets/icons/yelp.png">
-			<img src="assets/icons/instagram.png">
+    		<a href="https://www.facebook.com/bolsavietnamese/">
+				<img src="assets/icons/facebook.png">
+			</a>	
+			<a href="https://www.yelp.com/biz/bolsa-vietnamese-restaurant-san-diego-2">
+				<img src="assets/icons/yelp.png">
+			</a>
+			<a href="https://www.instagram.com/bolsarestaurant/">
+				<img src="assets/icons/instagram.png">
+			</a>
+			<a href="https://foursquare.com/v/bolsa-restaurant/4b45441df964a520740926e3">
+				<img src="assets/icons/foursquare.png">
+			</a>
     	</div>
     	<div id="top-link" class="bounce">
     	</div>
