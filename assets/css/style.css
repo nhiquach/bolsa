@@ -297,7 +297,7 @@ html, body {
 	font-family: 'Roboto', sans-serif;
 }
 
-/* SourceCode Credits to https://codemyui.com/scroll-arrow-bounce-animation/*/
+/* SourceCode Credits to https://codemyui.com/scroll-arrow-bounce-animation/ */
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;

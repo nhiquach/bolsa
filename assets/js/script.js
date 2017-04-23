@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	
 	$('.grid').masonry({
 	  itemSelector: '.grid-item',
 	  columnWidth: 260
@@ -123,6 +124,7 @@ $(document).ready(function() {
 	});
 
 	// Grid Captions
+
 	$(function() {
 			$('#grid-0-0').hover(function() { 
 				if ( $('#0-0').css('display') != 'none' ) {
@@ -212,6 +214,5 @@ $(document).ready(function() {
 			    $('#caption-2-2').fadeOut(); 
 			});
 	});
-
 
 });
